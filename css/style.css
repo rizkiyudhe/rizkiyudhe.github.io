@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header > h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  display: flex;
+}
+
+.container-item-1 {
+  text-align: left;
+  width: 100%;
+  padding: 20;
+}
+
+.container-item-2 {
+  text-align: left;
+  width: 100%;
+  padding: 12;
+  background-color: aquam;
+}
+
+/* Halaman Form */
+
+.container-form {
+  background-color: rgb(225, 236, 255);
+  padding: 10;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+}
+
+.container-item-1 > p {
+  text-align: justify;
+}
+
+.sex {
+  margin-bottom: 10;
+}
+
+#bb,
+#u,
+#tb {
+  width: 100%;
+  padding: 3px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+#button-submit {
+  color: white;
+  background-color: blue;
+  width: 100;
+  height: 25;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+#button-reset {
+  color: white;
+  background-color: red;
+  width: 70;
+  height: 25;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+#button-submit:hover {
+  background-color: white;
+  color: blue;
+  transition-duration: 0.5s;
+}
+
+#button-reset:hover {
+  background-color: white;
+  color: red;
+  transition-duration: 0.5s;
+}
+
+.kenggulan-fitur {
+  text-align: justify;
+  margin-left: 21px;
+}
+
+/* Halaman Result */
+
+.container-result {
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgb(225, 236, 255);
+  padding: 10;
+}
+
+#button-download {
+  width: 170;
+  height: 25;
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  background-color: blue;
+  color: white;
+}
+
+#button-download:hover {
+  background-color: white;
+  color: blue;
+  transition-duration: 0.5s;
+}
